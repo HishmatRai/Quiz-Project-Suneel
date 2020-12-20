@@ -17,3 +17,10 @@
     font-weight: bold;
     color: black;
 }
+.btn{
+    box-shadow: none !important;
+}
+
+.link_color{
+    color: black !important;
+}

@@ -1,0 +1,90 @@
+.questions_counter{
+    font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0em;
+color: white;
+}
+
+.question_render{
+    font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: justified;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.options{
+    font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
+padding: 10px !important;
+
+}
+.options_main{
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 20px !important;
+    cursor: pointer !important;
+    
+
+}
+
+
+.options_main2{
+    background: #FFAF40 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 20px !important;
+    cursor: pointer !important
+
+}
+
+.next_btn{
+    width: 100%;
+    outline: none !important;
+    background: #FF9F1A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+border: none ;
+padding: 8px;
+}
+
+.back_btn{
+    width: 100%;
+    outline: none !important;
+    background: none;
+box-shadow: none;
+border-radius: 20px;
+border: none;
+padding: 8px;
+
+}
+.btn_txt{
+    font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.RightIcon{
+    align-items: right !important;
+    align-self: flex-end !important;
+    justify-content: flex-end !important;
+    /* padding-left: 50%; */
+}
+.LeftIcon{
+    padding-right: 10px;
+}

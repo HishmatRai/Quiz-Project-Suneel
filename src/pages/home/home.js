@@ -1,24 +1,30 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBInput, MDBBtn, MDBIcon, MDBModalFooter } from 'mdbreact';
+import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Card from './../../components/card/card'
 import Drawer from './../../components/drawer/drawer'
 import Paper from "@material-ui/core/Paper";
-import Nav from './../../components/navbar'
 import './home.css'
 const Home = () => {
   return (
     <div>
+      {/* -----------------------------> DRAWER <------------------------- */}
       <Drawer />
-
-
       <div className="home_card_main">
+
+        {/* -----------------------------> HEADING <------------------------- */}
         <Paper style={{ backgroundColor: "#8E5BE3" }}>
           <p className="active_q">Active Quizzes</p>
         </Paper>
+
+        {/* -----------------------------> CARD <------------------------- */}
         <Card />
+
+        {/* -----------------------------> COMPLETE QUIZ HEADING <------------------------- */}
         <Paper style={{ backgroundColor: "#8E5BE3" }}>
           <p className="active_q">Completed Quizzes</p>
         </Paper>
+
+        {/* -----------------------------> DAILY STATUS <------------------------- */}
         <div>
           <p className="date">10 Dec 2020</p>
           <Paper >
@@ -48,6 +54,7 @@ const Home = () => {
             </MDBContainer>
           </Paper>
         </div>
+
         <div>
           <p className="date">02 Dec 2020</p>
           <Paper >
@@ -63,13 +70,8 @@ const Home = () => {
               </MDBRow>
             </MDBContainer>
           </Paper>
-          
         </div>
-      </div>
-      <br />
-      <br />
-      <br />
-      <br />
+      </div> <br /> <br /> <br /> <br />
     </div>
   );
 };
