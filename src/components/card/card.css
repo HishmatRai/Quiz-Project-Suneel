@@ -1,0 +1,44 @@
+._round_div{
+    background-color: #DA3671 !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+}
+._round_div_text{
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+}
+._heading{
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 20px;
+
+}
+.card_box{
+    background-color:white;
+    border-radius: 1px;
+    padding: 10px;
+}
+._card_id{
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}

@@ -50,6 +50,7 @@ const FormPage = () => {
                 </a>
               </p>
               <div className="text-center mb-3">
+                <a href="/Home" className="blue-text ml-1">
                 <MDBBtn
                   type="button"
                   gradient="blue"
@@ -58,12 +59,13 @@ const FormPage = () => {
                 >
                   Sign Up
                 </MDBBtn>
+                  </a>
               </div>
             </MDBCardBody>
             <MDBModalFooter className="mx-5 pt-3 mb-1">
               <p className="font-small grey-text d-flex justify-content-end">
                 Not a member?
-                <a href="#!" className="blue-text ml-1">
+                <a href="/" className="blue-text ml-1">
 
                   Sign in
                 </a>

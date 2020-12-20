@@ -1,0 +1,55 @@
+
+.home_card_main{
+    width: 80%;
+    margin-left: 18%;
+    margin-top: 20vh;
+}
+.active_q{
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+padding: 10px;
+}
+.date{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+margin-top: 20px;
+}
+.daily_update{
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 20px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .home_card_main{
+        width: 95%;
+        margin-left: 2%;
+        margin-top: 20vh;
+    }
+  }
+
+  .col-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xl-3 {
+padding: 1rem;
+text-align: left;
+}
+
